@@ -52,3 +52,28 @@ section.foto{
 td{
     padding: 0 20px 0 0;
 }
+
+
+.zamestnavatel{
+    color:rgb(65, 214, 19)
+}
+
+.PC li{
+    display: inline-block;
+    padding: 5px;
+    background-color: darkolivegreen;
+    margin: 3px;
+    border: 1px black;
+}
+
+.dalsi li{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(82, 92, 94);
+    margin: 3px;
+    border: 1px black;
+}
+
+ul{
+    padding: 0;
+}
