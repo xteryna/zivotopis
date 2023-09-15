@@ -21,7 +21,7 @@ h2{
 
 
 
-div{
+div.obal{
     display:flex;
     height: 100%;
     background-color:rgb(15, 136, 47);
@@ -30,18 +30,20 @@ div{
     box-shadow: 10px -10px 20px  rgb(97, 97, 97);
 }
 
-section.left{
+div.levy{
     float: left;
     background-color: rgb(2, 24, 8);
     color: lightgray;
+    flex: 2;
 }
 
-section.right{
+div.pravy{
     background-color: rgb(242, 250, 238);
     padding: 30px;
+    flex: 5;
 }
 
-.left section{
+.levy section{
     padding: 0 30px
 }
 
@@ -50,7 +52,7 @@ section.foto{
     }
 
 td{
-    padding: 0 20px 0 0;
+    padding: 0 10px 0 0;
 }
 
 
