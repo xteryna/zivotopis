@@ -1,6 +1,6 @@
 body{
     font-size: medium;
-    background-color: rgb(193, 245, 207);
+    background-color: rgb(207, 206, 206);
     }
 
 img {
@@ -26,17 +26,18 @@ div{
     height: 100%;
     background-color:rgb(15, 136, 47);
     overflow: auto;
-    margin: 100px
+    margin: 100px;
+    box-shadow: 10px -10px 20px  rgb(97, 97, 97);
 }
 
 section.left{
     float: left;
     background-color: rgb(2, 24, 8);
-    color: whitesmoke;
+    color: lightgray;
 }
 
 section.right{
-    background-color: white;
+    background-color: rgb(242, 250, 238);
     padding: 30px;
 }
 
@@ -48,9 +49,6 @@ section.foto{
     padding: 0;
     }
 
-section.omne{
-    padding: 10px 30px;
-    margin:10px 0;
-    background-color: gray;
-    color:aquamarine
+td{
+    padding: 0 20px 0 0;
 }
