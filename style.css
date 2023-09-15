@@ -1,31 +1,25 @@
 body{
-    font-size: large;
+    font-size: medium;
     background-color: rgb(193, 245, 207);
     }
 
 img {
     width:100%;
-    float: left;
-    border: 3px;
     border-color: black;
 
 }
 
 
 h1{
-    font-size:xx-large;
+    font-size:x-large;
+    color:rgb(65, 214, 19);
 }
 h2{
-   
-    
-    text-align: center;
-    margin: 10px;
+    font-size: large;
     width:100%
 }
 
-h1, h2{
-    color:rgb(65, 214, 19);
-}
+
 
 div{
     display:flex;
@@ -38,11 +32,25 @@ div{
 section.left{
     float: left;
     background-color: rgb(2, 24, 8);
-    padding: 30px; 
     color: whitesmoke;
 }
 
 section.right{
     background-color: white;
     padding: 30px;
+}
+
+.left section{
+    padding: 0 30px
+}
+
+section.foto{
+    padding: 0;
+    }
+
+section.omne{
+    padding: 10px 30px;
+    margin:10px 0;
+    background-color: gray;
+    color:aquamarine
 }
