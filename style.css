@@ -36,6 +36,7 @@ p{
 
 div.obal{
     display:flex;
+    flex-wrap: wrap;
     height: 100%;
     overflow: auto;
     margin: 5%;
