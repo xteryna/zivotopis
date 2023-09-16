@@ -42,7 +42,12 @@ div.obal{
     margin: 5%;
     /*box-shadow: 15px -15px 20px  rgb(97, 97, 97);*/
     border: 2px solid black
-    
+}
+
+@media(max-width: 25em) {
+    .obal{
+        flex-direction: column;
+    }
 }
 
 div.levy{
