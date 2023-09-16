@@ -1,7 +1,7 @@
 body{
     font-size:medium;
     background-image: url(obrazky/background1.jpg);
-    font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     }
 
 img {
@@ -9,7 +9,7 @@ img {
 }
 
 h1{
-    font-size:xx-large;
+    font-size:2.5em;
 }
 
 h1{
@@ -17,14 +17,15 @@ h1{
 }
 
 h2{
-    font-size:1.5em;
+    font-size:1.7em;
     margin: 40px 0 3px 0;
+    text-shadow: 1px 1px black;
 }
 
 
 h3{
-    font-size:1.5em;
-    margin-bottom: 3px;
+    font-size:1.3em;
+    margin:10px 0 3px;
     text-decoration: underline;
 }
 
@@ -38,7 +39,7 @@ div.obal{
     height: 100%;
     overflow: auto;
     margin: 70px;
-    box-shadow: 15px -15px 20px  rgb(97, 97, 97);
+    /*box-shadow: 15px -15px 20px  rgb(97, 97, 97);*/
     border: 2px solid black
     
 }
@@ -97,6 +98,6 @@ a{
 }
 
 a:hover, a:focus, a:active, h1, h2, .zamestnavatel{
-    color:rgb(78, 207, 39);
+    color:rgb(77, 190, 42);
     
 }
