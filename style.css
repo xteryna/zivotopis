@@ -38,7 +38,7 @@ div.obal{
     display:flex;
     height: 100%;
     overflow: auto;
-    margin: 70px;
+    margin: 5%;
     /*box-shadow: 15px -15px 20px  rgb(97, 97, 97);*/
     border: 2px solid black
     
@@ -58,7 +58,7 @@ div.pravy{
 }
 
 .levy section{
-    margin: 0 20px;
+    margin: 0 5%;
 }
 
 section.foto{
